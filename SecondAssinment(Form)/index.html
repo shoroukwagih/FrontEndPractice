@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Form</title>
+        <style>
+            #firstFieldSet {
+                background-color: rosybrown ;
+            }
+            #personalData {
+                background-color: antiquewhite;
+            }
+            #YourName {
+                background-color: burlywood ;
+                height: 50px;
+            }
+            #YourInfo {
+                background-color: rgb(155, 122, 83);
+                margin: 50px 0px 50px 0px;
+            }
+                .extraInfo {
+                    margin: 30px 0px 30px 0px;
+                }
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset id="firstFieldSet">
+                <legend id="personalData">Personal Data</legend>
+                <fieldset id="YourInfo">
+                    <legend id="YourName">YourName</legend>
+                    <table class="extraInfo">
+                        <tr>
+                            <td><label for="firstName">First Name:</label></td>
+                            <td><input type="text" name="firstName" placeholder="First Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastName">Last Name:</label></td>
+                            <td><input type="text" name="lastName" placeholder="Last Name"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <table class="extraInfo">
+                    <tr>
+                        <td><label for="firstName">Your Phone:</label></td>
+                        <td><input type="text" name="firstName" placeholder="Your Phone"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastName">Email:</label></td>
+                        <td><input type="email" name="lastName" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Confirm Password:</label></td>
+                        <td><input type="password" name="confirmPassword" placeholder="Confirm Password"></td>
+                    </tr>
+                </table>
+                <table class="extraInfo">
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender" value="male" id="male">
+                            <label for="male">Male</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            
+                            <input type="radio" name="gender" value="female" id="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td>   
+                            <input type="checkbox" name="Status" value="student">
+                            <label for="Status">student</label><br>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="Status" value="graduate">
+                            <label for="Status">Graduated</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="University">
+                                <option value="AUC">AUC</option>
+                                <option value="ASU">ASU</option>
+                                <option value="MTI">MTI</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>   
+                    </tr>
+                </table>
+               
+            </fieldset>
+
+        </form>
+    </body>
+</html>
