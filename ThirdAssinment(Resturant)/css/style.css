@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background {
+    background-image: url("../img/background.jpg");
+    text-align: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding: 150px 0px 0px 0px;
+}
+h3 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Alegreya', serif;
+}
+#title {
+    color: white;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px 0px 10px 0px;
+}
+button {
+    padding: 10px 10px;
+    font-size: 13px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+#btn1 {
+    background-color: #D9BB84;
+}
+#chef {
+    width: 40%;
+    height: 80vh;
+    float: left;
+    padding-left: 50px;
+}
+#about {
+    width: 60%;
+    height: 80vh;
+    float: right;
+    padding: 100px 0px;
+    text-align: center ;
+}
+.container {
+    width: 90%;
+    max-width: auto;
+}
+h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#discover {
+    font-family: 'Dancing Script', cursive;
+    color: #D9BB84;
+    font-size: 25px;
+}
+#story {
+    font-size: 25px;
+    padding-top: 20px;
+}
+#disc {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 20px;
+    line-height: 30px;
+}
