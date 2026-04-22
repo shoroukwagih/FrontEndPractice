@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .background {
     background-image: url("../img/background.jpg");
     text-align: center;
@@ -29,7 +32,7 @@ button {
     color: black;
     cursor: pointer;
 }
-#btn1 {
+.btn1 {
     background-color: #D9BB84;
 }
 #chef {
@@ -68,4 +71,15 @@ h2 {
     font-weight: 400;
     padding: 0px 20px;
     line-height: 30px;
+}
+#btn3 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #D9BB84;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
 }
