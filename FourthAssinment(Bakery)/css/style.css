@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.firstSec {
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.header {
+    margin: auto;
+    font-size: 0;
+}
+
+.leftHeader,
+.rightHeader {
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+.firstSecImg {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+.middle span {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.middle p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.learnMore {
+    background-color: rgb(94, 69, 47);
+    color: white;
+    border-radius: 5%;
+    padding: 20px 20px;
+    border: none;
+}
+
+.contactUs {
+    background-color: transparent;
+    color: white;
+    border-radius: 5%;
+    padding: 20px 20px;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.secondSecLeft {
+    width: 45%;
+    float: left;
+    padding: 50px;
+}
+
+.secondSecLeft .secondSecImg {
+    width: 100%;
+    display: block;
+}
+
+.secondSecRight {
+    width: 55%;
+    float: right;
+    padding: 60px 50px;
+    text-align: left;
+}
+
+.secondSecRight h2 {
+    font-size: 30px;
+    color: rgba(8, 8, 8, 0.842);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secondSecRight p {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons {
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: rgba(94, 69, 47, 0.692);
+    border-style: solid;
+    border-width: 0.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.icon-circle img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.icon-list-text {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.thirdSecright {
+    width: 45%;
+    float: right;
+    padding: 50px;
+}
+
+.thirdSecright .thirdSecImg {
+    width: 100%;
+    display: block;
+}
+.thirdSecleft {
+    width: 55%;
+    float: left;
+    text-align: left;
+    padding: 50px;
+    margin: 20px 0;
+}
+
+.thirdSecleft h2 {
+    font-size: 30px;
+    color: rgba(8, 8, 8, 0.842);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.thirdSecleft p {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourthSec
+{
+    text-align: center;
+}
+.fourthSecTitle h2 {
+    font-size: 30px;
+    color: rgba(8, 8, 8, 0.842);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fourthSecTitle p {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourthSecImgs {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 50px ;
+}
+.fourthSecImgs h2 {
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.842);
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fourthSecImgs p {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourthSecImgs > div {
+    flex: 1;
+}
+
+.fourthSecImgs img {
+    width: 100%;
+    display: block;
+}
+
+
+.fifthSecright {
+    width: 45%;
+    float: right;
+    padding: 50px;
+}
+
+.fifthSecright .fifthSecImg {
+    width: 100%;
+    display: block;
+}
+.fifthSecleft {
+    width: 55%;
+    float: left;
+    text-align: left;
+    padding: 50px;
+    margin: 20px 0;
+}
+
+.fifthSecleft h2 {
+    font-size: 30px;
+    color: rgba(8, 8, 8, 0.842);
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fifthSecleft p {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifthSecleft h5 {
+    display: block;
+    line-height: 1.86em;
+    font-size: 17px;
+    color: rgba(8, 8, 8, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifthSecright {
+    width: 45%;
+    float: right;
+}
+
+.fifthSecright iframe {
+    width: 100%;
+    height: 500px;
+    border: 0;
+    display: block;
+}
+.fifthSec .icon-circle {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgba(94, 69, 47, 0.692);
+    border-style: solid;
+    border-width: 0.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
